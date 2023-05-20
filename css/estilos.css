@@ -1,0 +1,286 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 300vh;
+   
+
+}
+
+header{
+    display: flex;
+    height: 90px;
+    background-color: #F2BBBB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    }
+.logo{ 
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 130px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.5vh;
+}
+
+nav{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a:hover{
+    color: #BF7A24;
+}
+
+main{
+    background: #f4f3ee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+
+}
+
+.info h1{
+    font-size: 32px;
+    min-width: 500px;
+    
+}
+
+.info p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.info a{
+    color: white;
+    background: #F2BBBB;
+    display: inline-block;
+    height: 40px;
+    width: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.foto{
+    padding-left: 100px;
+        
+}
+
+.presentacion{
+    border-radius: 100px;
+    height: 400px;
+}
+.medio1{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+.medio2{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+.medio3{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background: #f4f3ee;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 25px;
+}
+
+.info-detallitos{
+    width: 70%;
+    display: flex;
+ 
+
+}
+
+.info-detallitos p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    
+    
+}
+
+.section2 h2{
+    font-size: 30px;
+    color: #F2BBBB;
+    
+    
+}
+
+.hr{
+    color: #000;
+}
+
+#info{
+    margin: 0 auto;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#info h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #F2BBBB;
+}
+
+.info-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card{
+    height: 300px;
+    width: 290px;
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:#F2BBBB ;
+    border-radius: 1rem;
+
+}
+
+.info-card img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.info-card p{
+    color: #54535a;
+    font-size: 14px;
+}
+
+#footer-contact{
+ margin: 0 auto;
+ background: #F2BBBB;
+ padding: 0px 70px;
+}
+
+#footer-contact h2{
+    font-size: 50px;
+    color: #000000;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+
+.contact-bottom{
+    display: flex;
+    gap: 40px;
+    color: #000000;
+    margin-top: 25px;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0px 0px;
+    justify-content: space-between;
+}
+
+.contact-bottom p {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact-bottom h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.contact-bottom img{
+    width: 50%;
+    width: 400px;
+    height: 390;
+}
+
+.redes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+   
+}
+
+.redes h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.redes img{
+    width: 40px;
+    cursor: pointer;
+    background: #eeeeee;
+    gap: 40px;
+    border-radius: 9px;
+    margin-left: 40px;
+}
+    
+
+
